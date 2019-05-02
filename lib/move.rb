@@ -16,3 +16,7 @@ def move(board, userinput, playerCharacter = "X")
   board[userinput] = playerCharacter
   display_board(board)
 end
+
+def prompt
+  puts "Where would you like to go?"
+end
